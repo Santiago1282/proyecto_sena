@@ -14,7 +14,7 @@ header{
  /*Titulo de la pagina dentro del body*/
 header h1 {
     margin: o auto;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 /*Propiedades de redes sociales*/
@@ -38,11 +38,11 @@ header section a {
     transition: all 0.4s ease-in-out;
   
 }
-
+/*Degradado iconos de redes y pagos */
 header section a:hover {
     transform: scale(1.5);
 }
-
+/*Propiedades fondo del body*/
 .fondo {
     background-color: rgb(231, 238, 238);
     margin: 10px; 
@@ -51,14 +51,14 @@ header section a:hover {
     border-radius: 5px;
     outline: 1px solid goldenrod;
 }
-
+/*Propiedades del logo de Mónaco*/
 #logo {
     float: right;
     border: 5px gold outset;
     margin: 15px;
     outline: solid goldenrod; 
 }
-
+/*Propiedades generales del footer*/
 footer {
     font-size: small;
     background-color: #364552;
@@ -70,24 +70,24 @@ footer {
     margin: 0 auto;
     float: right;
 }
-
+/*Propiedades de los datos de contacto*/
 footer p {
     margin: 0 auto;
     float: right;
 }
-
+/*Propiedades de hipervinculos y copyright*/
 footer section {
     float: left;
     margin: 0 auto;
     
 }
-
+/*Propiedades de los hipervinculos*/
 footer a {
     transition: color 0.3s ease;
     color: white;
     text-decoration: none;
 }
-
+/*Propiedades de los hipervinculos*/
 footer a:hover {
     color: cornflowerblue;
 }
