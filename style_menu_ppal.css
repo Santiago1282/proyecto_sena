@@ -1,6 +1,11 @@
 html {
     font-family: 'Montserrat', sans-serif;
 }
+/*Formatear Body*/
+body {
+    margin: 0;
+    background-color: rgb(231, 238, 238);
+}
 
 /* Propiedades del encabezado*/
 header{
@@ -45,6 +50,7 @@ header section a:hover {
 /*Propiedades fondo del body*/
 .fondo {
     background-color: rgb(231, 238, 238);
+    background-size: cover;
     margin: 10px; 
     padding: 30px; 
     border: inset 2px gold;
@@ -55,9 +61,29 @@ header section a:hover {
 #logo {
     float: right;
     border: 5px gold outset;
-    margin: 15px;
+    margin: 30px 100px 0;
     outline: solid goldenrod; 
 }
+/*Propiedades botones_menu*/
+.botones_menu {
+    font-size: 1.5rem;
+    height: 100px;
+    width: 200px;
+    border: 5px #364552 outset;
+    outline: solid rgb(94, 94, 190);
+    margin-bottom: 2.5px;
+    padding-bottom: 2.5px;
+}
+/*Propiedades Nombre de usuario*/
+#nombre_usuario {
+    float: right;
+    color: #314652;
+    margin-right: 100px;
+    padding: 0.8rem;
+    border: 5px gold outset;
+    outline: solid goldenrod; 
+}
+
 /*Propiedades generales del footer*/
 footer {
     font-size: small;
