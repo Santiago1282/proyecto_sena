@@ -72,7 +72,7 @@ header section a {
     position: relative;
     left: 15px;
 }
-
+/*Propiedades del fondo de imagenes*/
 .fondoimg {
     float: right;
     float: top;
@@ -85,7 +85,17 @@ header section a {
     max-width: 686px;
     outline: 1px solid goldenrod;
 }
-
+/*Propiedades del fondo del formulario*/
+.fondo {
+    background-color: rgb(231, 238, 238);
+    margin: 15px; 
+    padding: 30px; 
+    border: inset 2px gold;
+    border-radius: 5px;
+    height: 400;
+    width: 340px;
+    outline: 1px solid goldenrod; 
+}
 .imagen1 {
     border: 1px black inset;
     margin: 0 auto;
