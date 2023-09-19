@@ -4,14 +4,7 @@ html {
 /*Propiedades de body*/
 body {
     margin: 0;
-    background-color: #efefef; 
-}
-
-/*Propiedades del fondo del body*/
-
-#inicio {
-    text-decoration: none;
-    color: #314652;
+    background-color: rgb(231, 238, 238); 
 }
 /* Propiedades del encabezado*/
 header{
@@ -57,66 +50,37 @@ header section a {
     transition: all 0.4s ease-in-out;
   
 }
-
-#texto1 {
-    font-size: 20px;
-    color: #314652;
-}
-
-#texto2 {
-    font-size: x-small;
-}
-
-#position {
-    
-    position: relative;
-    left: 15px;
-}
 /*Propiedades del fondo de imagenes*/
 .fondoimg {
     float: right;
-    float: top;
-    background-color: rgb(231, 238, 238);
-    margin: 10px 100px; 
-    padding: 0.25rem 1.25rem; 
+    margin: 5rem;
+    padding: 0.2rem; 
     border: inset 5px gold;
     border-radius: 5px;
-    height: 928px;
-    max-width: 686px;
     outline: 1px solid goldenrod;
 }
-/*Propiedades del fondo del formulario*/
-.fondo {
-    background-color: rgb(231, 238, 238);
-    margin: 15px; 
-    padding: 30px; 
-    border: inset 2px gold;
+/* Arriba | Derecha | Abajo | Izquierda valores de margin*/
+
+.formato {
+    margin: 10px;
+    padding: 15px;
+    border: inset 2.5px gold;
     border-radius: 5px;
-    height: 400;
-    width: 340px;
-    outline: 1px solid goldenrod; 
+    outline: 1px solid goldenrod;
 }
-.imagen1 {
-    border: 1px black inset;
-    margin: 0 auto;
-    outline: outset rgb(7, 71, 7); 
-    float: right;
-    height: 440px;
-    width: 650px;
-    padding:1px;
+#texto1 {
+    font-size: x-large;
 }
 
-.imagen2 {
-    border: 1px black inset;
-    margin: 0 auto;
-    outline: outset rgb(7, 71, 7); 
-    float: right;
-    height: 440px;
-    width: 650px;
-    padding: 1px;
+#boton_fact {
+    display: flex;
+    color: goldenrod;
+    font-size: xx-large;
+    border-radius: 5px;
+    border-color: inset 5px gold;
+    outline: 3px solid goldenrod;
 
 }
-
 footer {
     font-size: small;
     background-color: #364552;

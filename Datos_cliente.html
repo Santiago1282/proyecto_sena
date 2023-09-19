@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleCliente.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Rockwell Std Extra Bold/Rockwell Std Extra Bold.otf">
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Datos del cliente</title>
+</head>
+<body>
+    <header>
+        <section id="redes">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-instagram" ></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-pinterest"></a>           
+        </section>
+        <section id="pago">
+            <a href="#" class="fa fa-cc-mastercard"></a>
+            <a href="#" class="fa fa-cc-visa"></a>
+            <a href="#" class="fa fa-cc-amex"></a>
+            <a href="#" class="fa fa-cc-diners-club"></a>
+            <a href="#" class="fa fa-paypal"></a>           
+        </section>
+        <h1>FACTURACIÓN</h1>
+    </header>
+    <div class="fondoimg">
+        <img class="logo" src="Logo.jpeg" alt="200"> 
+    </div>
+    <div class="formato">
+        <p id="texto1"><strong>FACTURAR</strong></p>
+        <form action="/formulario" method="post"> <!-- Enviar la información-->
+            <label for="nombre">Ingrese el nombre del cliente </label> <br><br>
+            <input type="text" id="nombre" placeholder="Nombre">
+            <br><br>      
+            <label for="num_doc">Ingrese el numero de documento</label> 
+            <br><br>
+            <input type="text" id="num_doc" placeholder="numero de documento">
+            <br><br>
+            <label for="direccíon">Ingrese la direccíon</label>
+            <br><br>
+            <input type="text" id="direccíon" placeholder="direccíon">
+            <br><br>
+            <label for="telefono">Ingrese el numero telefonico</label>
+            <br><br>
+            <input type="text" id="telefono" placeholder="telefono">
+            <br><br>
+            <label for="email">Ingrese el correo electronico</label>
+            <br><br>
+            <input type="email" id="email" placeholder="E-mail">
+            <br><br>
+            <button id="boton_fact" type="submit"><strong>FACTURAR</strong></button>
+        </form>
+    </div>
+    <footer>
+        <section id="datos">
+            <p>Direccíon: Av Americas # 23-34</p>
+            <br>
+            <p>Telefono: 313-234-4556</p>
+            <br>
+            <p><E-mail>cineymafetv@gmail.com</E-mail></p> 
+            <br>  
+        </section>
+        <section>          
+            <a target="_blank" href="http://www.google.com">ir a google</a> 
+            <br>
+            <a href="mailto:maotse1282@hotmail.com">Contactenos</a> 
+            <br>
+            <p>Copyright 2023</p> 
+        </section>                         
+    </footer>
+</body>
+</html>
