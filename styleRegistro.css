@@ -72,7 +72,7 @@ header section a {
     position: relative;
     left: 15px;
 }
-
+/*Propiedades del fondo de imagenes*/
 .fondoimg {
     float: right;
     float: top;
@@ -85,7 +85,17 @@ header section a {
     max-width: 686px;
     outline: 1px solid goldenrod;
 }
-
+/*Propiedades del fondo del formulario*/
+.fondo {
+    background-color: rgb(231, 238, 238);
+    margin: 15px; 
+    padding: 30px; 
+    border: inset 2px gold;
+    border-radius: 5px;
+    height: 400;
+    width: 340px;
+    outline: 1px solid goldenrod; 
+}
 .imagen1 {
     border: 1px black inset;
     margin: 0 auto;
@@ -138,28 +148,4 @@ footer a {
 
 footer a:hover {
     color: cornflowerblue;
-}
-
-
-
-
-   
-
-/*Propiedades de todas las etiquetas a = redes*/
-header section a {
-    text-decoration: none;
-    font-size: 25px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    background: white;
-    color: #314652;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
-    transition: all 0.4s ease-in-out;
-  
-}
-
-header section a:hover {
-    transform: scale(1.5);
 }

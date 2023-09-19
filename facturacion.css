@@ -1,17 +1,19 @@
 html {
     font-family: 'Montserrat', sans-serif;
 }
-/*Propiedades de body*/
+/*Formatear Body*/
 body {
     margin: 0;
-    background-color: #efefef; 
+    background-color: rgb(231, 238, 238);
 }
+
 /* Propiedades del encabezado*/
 header{
     font-family: Rockwell Std Extra Bold;
     background-color: #364552;
     color:white;
     padding: 1rem 1rem;
+
 }
 
  /*Titulo de la pagina dentro del body*/
@@ -49,36 +51,55 @@ header section a {
     transition: all 0.4s ease-in-out;
   
 }
+/*Degradado iconos de redes y pagos */
 header section a:hover {
     transform: scale(1.5);
 }
-
-.fondo {
+/*Propiedades del fondo del formulario*/
+.formato {
     background-color: rgb(231, 238, 238);
-    margin: 10px; 
-    padding: 30px; 
-    border: inset 2px gold;
+    contain: content;
+    margin: 0 13px 13px 13px; 
+    padding: 15px;
+    border: inset 5px gold;
     border-radius: 5px;
-    outline: 1px solid goldenrod;
+    outline: 1px solid goldenrod; 
 }
-
-#logo {
-    float: right;
-    border: 5px gold outset;
+/*Propiedades de imagen*/
+#imagen2 {
+    border: 5px gold inset;
     margin: 15px;
-    outline: solid goldenrod; 
+    padding: 15px;
+    outline: 3px outset goldenrod(7, 71, 7); 
+    float: right;
+    border-radius: 5px;
+    height: 490px;
+    width: 630px;  
+}
+/*Propiedades total*/
+.form2 {
+    font-size: x-large;
+    float:right;
+    margin: 15px;
+ }
+/*Propiedades cliente*/
+#cliente {
+    float: left;
+    font-size: 20px;
 }
 
+
+/*Propiedades de pie de pag*/
 footer {
     font-size: small;
     background-color: #364552;
-    padding: 4rem;
     color: white;
+    padding: 4rem;
 }
 
 #datos {
-    margin: 0 auto;
     float: right;
+   
 }
 
 footer p {
