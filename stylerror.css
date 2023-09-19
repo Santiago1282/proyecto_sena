@@ -1,14 +1,17 @@
 html {
     font-family: 'Montserrat', sans-serif;
 }
-
+/*Propiedades de body*/
+body {
+    margin: 0;
+    background-color: #efefef; 
+}
 /* Propiedades del encabezado*/
 header{
     font-family: Rockwell Std Extra Bold;
     background-color: #364552;
     color:white;
     padding: 1rem 1rem;
-
 }
 
  /*Titulo de la pagina dentro del body*/

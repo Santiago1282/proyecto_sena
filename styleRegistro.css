@@ -149,27 +149,3 @@ footer a {
 footer a:hover {
     color: cornflowerblue;
 }
-
-
-
-
-   
-
-/*Propiedades de todas las etiquetas a = redes*/
-header section a {
-    text-decoration: none;
-    font-size: 25px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    background: white;
-    color: #314652;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
-    transition: all 0.4s ease-in-out;
-  
-}
-
-header section a:hover {
-    transform: scale(1.5);
-}
