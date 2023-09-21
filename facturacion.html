@@ -37,8 +37,8 @@
             </form>
         </div>
         <div class="formato">
-            <p id="texto1"><strong>PRODUCTO</strong></p>
-            <form action="/formulario" method="post"> <!-- Enviar la información-->
+            <form id="formulario" action="/formulario" method="post"> <!-- Enviar la información-->
+                <p id="texto1"><strong>PRODUCTO</strong></p>
                 <label for="id_producto"><strong>Ingrese el id_producto</strong></label> <br><br>
                 <input type="text" id="id_producto" placeholder="Id_producto">
                 <br><br>
@@ -56,14 +56,16 @@
                 <label for="medio"><strong>Elige el medio de pago</strong></label>
                 <br><br>
                 <select name="medio_pago" id="medio">
+                    <option value="blanco"></option>
                     <option value="efectivo">EFECTIVO</option>
                     <option value="fa-cc-visa">VISA</option>
                     <option value="fa-cc-mastercard">MASTERCARD</option>
                     <option value="fa-cc-amex">AMEX</option>
                     <option value="fa-cc-diners-club">DINERS</option>
-                    <option value="fa-paypal">PAYPAL</option>    
+                    <option value="fa-paypal">PAYPAL</option>
+                    <option value="cuotas">PLAN DE ABONOS</option>    
                 </select>
-                <br><br>
+                <br><br><br>
                 <button id="producto" type="submit" class="button">Agregar producto</button>
                 <br><br><br>   
                 <button id="cliente" type="submit" class="button">Ir a datos del cliente</button>

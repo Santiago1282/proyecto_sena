@@ -80,6 +80,10 @@ header section a:hover {
     outline: solid rgb(94, 94, 190);
     margin-bottom: 2.5px;
     padding-bottom: 2.5px;
+    transition: all 0.4s ease-in-out; 
+}
+.botones_menu:hover {
+    transform: scale(1.2);
 }
 /*Propiedades Nombre de usuario*/
 #nombre_usuario {
