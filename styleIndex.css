@@ -81,22 +81,16 @@ header section a:hover {
     outline: solid goldenrod; 
 }
 
-/*a:link {
-    color: blueviolet;   
+.boton {
+    font-size: 20px;
+    border: 2px gold inset;
+    margin: 1px;
+    outline: outset goldenrod;
+    transition: all 0.4s ease-in-out;
 }
-
-a:visited {
-    color: gray;
+.boton:hover {
+    transform: scale(1.2);
 }
-
-a:hover {
-    color: yellow;
-}
-
-a:active {
-    color: red;
-}*/
-
 #position {
     
     position: relative;
