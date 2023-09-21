@@ -53,11 +53,10 @@ header section a {
 /*Propiedades del fondo de imagenes*/
 .fondoimg {
     float: right;
-    margin: 5rem;
+    margin: 50px;
     padding: 0.2rem; 
-    border: inset 5px gold;
-    border-radius: 5px;
-    outline: 1px solid goldenrod;
+    
+
 }
 /* Arriba | Derecha | Abajo | Izquierda valores de margin*/
 
@@ -70,6 +69,18 @@ header section a {
 }
 #texto1 {
     font-size: x-large;
+}
+
+.logo{
+    margin: 0.5rem;
+    padding: 0.2rem; 
+    border: inset 5px gold;
+    border-radius: 5px;
+    outline: 1px solid goldenrod;
+}
+.form2 {
+    margin: 15px;
+    font-size: xx-large;
 }
 
 #boton_fact {
@@ -112,4 +123,8 @@ footer a {
 
 footer a:hover {
     color: cornflowerblue;
+}
+
+header section a:hover {
+    transform: scale(1.5);
 }

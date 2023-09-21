@@ -55,33 +55,41 @@ header section a {
 header section a:hover {
     transform: scale(1.5);
 }
-/*Propiedades del fondo del formulario*/
+/*Propiedades del fondo de imagenes*/
+.fondoimg {
+    float: right;
+    margin: 50px;
+    padding: 0.2rem; 
+    
+
+}
+/* Arriba | Derecha | Abajo | Izquierda valores de margin*/
+
 .formato {
-    background-color: rgb(231, 238, 238);
-    contain: content;
-    margin: 0 13px 13px 13px; 
-    padding: 15px;
+    margin: 10px;
+    padding: 50px;
+    border: inset 2.5px gold;
+    border-radius: 5px;
+    outline: 1px solid goldenrod;
+}
+
+#imagen1{
+    height: 400px;
+    width: 500px;
+    margin: 0.5rem;
+    padding: 0.2rem; 
     border: inset 5px gold;
     border-radius: 5px;
-    outline: 1px solid goldenrod; 
+    outline: 1px solid goldenrod;
 }
-/*Propiedades de imagen*/
-#imagen2 {
-    border: 5px gold inset;
-    margin: 15px;
-    padding: 15px;
-    outline: 3px outset goldenrod(7, 71, 7); 
-    float: right;
-    border-radius: 5px;
-    height: 490px;
-    width: 630px;  
-}
-/*Propiedades total*/
 .form2 {
-    font-size: x-large;
-    float:right;
-    margin: 15px;
- }
+    margin: 25px;
+    font-size: xx-large;
+}
+/*Propiedades producto*/
+#producto {
+    font-size: 20px;
+}
 /*Propiedades cliente*/
 #cliente {
     float: left;

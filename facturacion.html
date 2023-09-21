@@ -29,12 +29,13 @@
         </section>
         <h1>Facturación</h1>
     </header>
-        <img id="imagen2" src="Colchon 2.jpeg" alt="400">
-        <br>
-        <form class="form2">
-            <label for="total"><strong>TOTAL</strong></label>
-            <input type="text" id="total">
-        </form>
+        <div class="fondoimg">
+            <img id="imagen1" src="Colchon 2.jpeg" alt="200">
+            <form class="form2">
+                <label for="total"><strong>TOTAL</strong></label>
+                <label for="total"><strong>________________</strong></label>
+            </form>
+        </div>
         <div class="formato">
             <p id="texto1"><strong>PRODUCTO</strong></p>
             <form action="/formulario" method="post"> <!-- Enviar la información-->
@@ -46,11 +47,11 @@
                 <br><br>      
                 <label for="Subtotal"><strong>Subtotal</strong></label>
                 <br><br>
-                <input type="text" id="Subtotal">
+                <label for="Subtotal"><strong>________________</strong></label>
                 <br><br>
                 <label for="iva"><strong>IVA</strong></label> 
                 <br><br>
-                <input type="text" id="iva">
+                <label for="iva"><strong>________________</strong></label>
                 <br><br>
                 <label for="medio"><strong>Elige el medio de pago</strong></label>
                 <br><br>
@@ -62,6 +63,8 @@
                     <option value="fa-cc-diners-club">DINERS</option>
                     <option value="fa-paypal">PAYPAL</option>    
                 </select>
+                <br><br>
+                <button id="producto" type="submit" class="button">Agregar producto</button>
                 <br><br><br>   
                 <button id="cliente" type="submit" class="button">Ir a datos del cliente</button>
             </form>           

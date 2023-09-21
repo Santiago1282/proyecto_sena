@@ -48,101 +48,82 @@ header section a {
     border-radius: 50%;
     padding: 1rem;
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
-    transition: all 0.4s ease-in-out; 
+    transition: all 0.4s ease-in-out;
+  
 }
 /*Degradado iconos de redes y pagos */
 header section a:hover {
     transform: scale(1.5);
 }
-
-#texto1 {
-    font-size: 20px;
-    color: #314652;
-}
-
-#texto2 {
-    font-size: x-small;
-}
-
-#position {
-    
-    position: relative;
-    left: 15px;
-}
-/*Propiedades del fondo de imagenes*/
-.fondoimg {
-    float: right;
-    float: top;
-    background-color: rgb(231, 238, 238);
-    margin: 10px 100px; 
-    padding: 0.25rem 1.25rem; 
-    border: inset 5px gold;
-    border-radius: 5px;
-    height: 928px;
-    max-width: 686px;
-    outline: 1px solid goldenrod;
-}
-/*Propiedades del fondo del formulario*/
+/*Propiedades fondo del body*/
 .fondo {
     background-color: rgb(231, 238, 238);
-    margin: 15px; 
+    background-size: cover;
+    margin: 10px; 
     padding: 30px; 
     border: inset 2px gold;
     border-radius: 5px;
-    height: 400;
-    width: 340px;
-    outline: 1px solid goldenrod; 
+    outline: 1px solid goldenrod;
 }
-.imagen1 {
-    border: 1px black inset;
-    margin: 0 auto;
-    outline: outset rgb(7, 71, 7); 
+/*Propiedades del logo de Mónaco*/
+#logo {
     float: right;
-    height: 440px;
-    width: 650px;
-    padding:1px;
+    border: 5px gold outset;
+    margin: 30px 100px 0;
+    outline: solid goldenrod; 
 }
-
-.imagen2 {
-    border: 1px black inset;
-    margin: 0 auto;
-    outline: outset rgb(7, 71, 7); 
+/*Propiedades botones_menu*/
+.botones_menu {
+    font-size: 1.5rem;
+    height: 100px;
+    width: 200px;
+    border: 5px #364552 outset;
+    outline: solid rgb(94, 94, 190);
+    margin-bottom: 2.5px;
+    padding-bottom: 2.5px;
+}
+/*Propiedades Nombre de usuario*/
+#nombre_usuario {
     float: right;
-    height: 440px;
-    width: 650px;
-    padding: 1px;
+    color: #314652;
+    margin-right: 100px;
 
+    padding: 0.8rem;
+    border: 5px gold outset;
+    outline: solid goldenrod; 
 }
 
+/*Propiedades generales del footer*/
 footer {
     font-size: small;
     background-color: #364552;
+    padding: 4rem;
     color: white;
-    padding: 3.5rem;
 }
 
 #datos {
+    margin: 0 auto;
     float: right;
-   
 }
-
+/*Propiedades de los datos de contacto*/
 footer p {
     margin: 0 auto;
     float: right;
 }
-
+/*Propiedades de hipervinculos y copyright*/
 footer section {
     float: left;
     margin: 0 auto;
     
 }
-
+/*Propiedades de los hipervinculos*/
 footer a {
     transition: color 0.3s ease;
     color: white;
     text-decoration: none;
 }
-
+/*Propiedades de los hipervinculos*/
 footer a:hover {
     color: cornflowerblue;
 }
+

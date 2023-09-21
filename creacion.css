@@ -75,11 +75,9 @@ header section a:hover {
     float: top;
     background-color: rgb(231, 238, 238);
     margin: 10px 100px; 
-    padding: 0.25rem 1.25rem; 
+    padding: 15px; 
     border: inset 5px gold;
     border-radius: 5px;
-    height: 928px;
-    max-width: 686px;
     outline: 1px solid goldenrod;
 }
 /*Propiedades del fondo del formulario*/
@@ -98,9 +96,9 @@ header section a:hover {
     margin: 0 auto;
     outline: outset rgb(7, 71, 7); 
     float: right;
-    height: 440px;
-    width: 650px;
-    padding:1px;
+    height: 300px;
+    width: 500px;
+    padding:5px;
 }
 
 .imagen2 {
@@ -108,10 +106,16 @@ header section a:hover {
     margin: 0 auto;
     outline: outset rgb(7, 71, 7); 
     float: right;
-    height: 440px;
-    width: 650px;
-    padding: 1px;
+    height: 300px;
+    width: 500px;
+    padding: 5px;
+}
 
+#crear_p {
+    font-size: 20px;
+    border: 2px gold inset;
+    margin: 1px;
+    outline: outset goldenrod;
 }
 
 footer {

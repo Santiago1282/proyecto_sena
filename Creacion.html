@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleRegistro.css">
+    <link rel="stylesheet" href="creacion.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Rockwell Std Extra Bold/Rockwell Std Extra Bold.otf">
-     <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Registro</title>
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CREACIÓN</title>
 </head>
 <body>
     <header>
@@ -27,51 +27,40 @@
             <a href="#" class="fa fa-cc-diners-club"></a>
             <a href="#" class="fa fa-paypal"></a>           
         </section>
-        <h1>REGISTRO</h1>
+        <h1>CREAR PRODUCTO</h1>
     </header>
      <br>
     <div class="fondoimg">
+        <img class="imagen1" src="Colchon 3.jpeg" alt="200"> 
         <br>
-        <img class="imagen1" src="Colchon 3.jpeg" alt="200"> <br><br>
         <img class="imagen2" src="Colchon 2.jpeg" alt="200">
     </div>
     <div class="fondo">
-            <p id="texto1">REGISTRO</p>
+            <p id="texto1"><strong>Crear producto</strong></p>
             <form action="/formulario" method="post"> <!-- Enviar la información-->
-            <label for="nombres">Nombre</label> <br><br>
-            <input type="text" id="nombre" placeholder="Nombre">
+            <label for="tipo_producto">Ingrese tipo de producto</label> <br><br>
+            <input type="text" id="tipo_producto" placeholder="Ingrese tipo de producto">
             <br><br>
-            <label for="apellidos">Apellidos</label> <br><br>
-            <input type="text" id="apellidos" placeholder="apellidos"> 
+            <label for="Id_producto">Crear Id del producto</label> <br><br>
+            <input type="text" id="Id_producto" placeholder="Crear el Id_producto"> 
+            <br><br>
+            <label for="referencia">Crear referencia del producto</label> 
             <br><br>      
-            <label for="fecha-nacimiento">Fecha de nacimiento</label> 
+            <input type="text" id="referencia" placeholder="Ingrese la referencia del producto">
             <br><br>
-            <input type="date" id="nacimiento" placeholder="nacimiento">
+            <label for="nombre">Crear el nombre del producto</label> 
             <br><br>
-            <label for="tipo_documento">Ingrese el tipo de documento</label>
+            <input type="text" id="nombre" placeholder="Ingrese el nombre del producto">
             <br><br>
-            <input type="text" id="documento" placeholder="documento">
+            <label for="barras">Crear código de barras</label> 
             <br><br>
-            <label for="num_doc">Numero de documento</label> 
+            <input type="text" id="barras" placeholder="Código de barras">
             <br><br>
-            <input type="text" id="num_doc" placeholder="num_doc">
+            <label for="imagen_producto">Cargue la foto del producto</label> 
             <br><br>
-            <label for="contraseña">Ingrese contraseña</label>
-            <br><br>
-            <input type="password" id="contraseña" placeholder="contraseña">
-            <br><br>
-            <p id="texto2">La contraseña debe contener al menos una <br>
-                mayuscula un número y un caracter especial</p> 
-            <br><br>
-            <label for="rep_contraseña">Repita la contraseña</label>
-            <br><br>
-            <input type="password" id="rep_contraseña" placeholder="rep_contraseña"> 
-            <br><br>   
-            <button type="submit" class="button">Registrarse</button>
-            <br><br>
-            <p id="ingrese">Ya tienes una cuenta?</p>
-            <br><br>
-            <button type="submit">Ingresar</button>
+            <input type="file" id="imagen_producto">
+            <br><br><br><br>
+            <button id="crear_p" type="submit"><strong>CREAR PRODUCTO</strong></button>
         </form>
     </div>
     <footer>
@@ -87,5 +76,4 @@
         </section>                         
     </footer>
 </body>
-
 </html>
