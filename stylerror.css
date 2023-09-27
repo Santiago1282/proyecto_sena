@@ -35,7 +35,7 @@ header h1 {
     box-sizing: content-box;
 }
 /*Propiedades de todas las etiquetas a(redes, pagos)*/
-header section a {
+header div a {
     size: 20px;
     text-decoration: none;
     width: 1.5rem;
@@ -49,7 +49,7 @@ header section a {
     transition: all 0.4s ease-in-out;
   
 }
-header section a:hover {
+header div a:hover {
     transform: scale(1.5);
 }
 
@@ -97,7 +97,7 @@ footer p {
     float: right;
 }
 
-footer section {
+footer div {
     float: left;
     margin: 0 auto;
     

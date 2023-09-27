@@ -37,7 +37,7 @@ header h1 {
     box-sizing: content-box;
 }
 /*Propiedades de todas las etiquetas a(redes, pagos)*/
-header section a {
+header div a {
     size: 20px;
     text-decoration: none;
     width: 1.5rem;
@@ -52,7 +52,7 @@ header section a {
   
 }
 /*Degradado iconos de redes y pagos */
-header section a:hover {
+header div a:hover {
     transform: scale(1.5);
 }
 /*Propiedades del fondo de imagenes*/
@@ -140,7 +140,7 @@ footer p {
     float: right;
 }
 
-footer section {
+footer div {
     float: left;
     margin: 0 auto;
     

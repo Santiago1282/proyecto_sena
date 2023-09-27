@@ -36,7 +36,7 @@ header h1 {
     box-sizing: content-box;
 }
 /*Propiedades de todas las etiquetas a(redes, pagos)*/
-header section a {
+header div a {
     size: 20px;
     text-decoration: none;
     width: 1.5rem;
@@ -48,7 +48,10 @@ header section a {
     padding: 1rem;
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
     transition: all 0.4s ease-in-out;
-  
+  }
+
+  header div a:hover {
+    transform: scale(1.5);
 }
 /*Propiedades del fondo de imagenes*/
 .fondoimg {
@@ -109,7 +112,7 @@ footer p {
     float: right;
 }
 
-footer section {
+footer div {
     float: left;
     margin: 0 auto;
     
@@ -125,6 +128,3 @@ footer a:hover {
     color: cornflowerblue;
 }
 
-header section a:hover {
-    transform: scale(1.5);
-}
