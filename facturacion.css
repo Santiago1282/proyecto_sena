@@ -97,6 +97,10 @@ header div a:hover {
     margin: 25px;
     font-size: xx-large;
 }
+
+.form2 p {
+    margin: 0;
+}
 /*Propiedades producto*/
 #producto {
     font-size: 20px;
