@@ -87,8 +87,7 @@ header div a:hover {
     padding: 15px;
     border: inset 2px gold;
     border-radius: 5px;
-    outline: 1px solid goldenrod;
-    
+    outline: 1px solid goldenrod;   
 }
 
 footer {
