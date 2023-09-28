@@ -81,6 +81,16 @@ header div a:hover {
     outline: solid goldenrod; 
 }
 
+#formulario {
+    width: 400px;
+    margin: 100px 10px;
+    padding: 15px;
+    border: inset 2px gold;
+    border-radius: 5px;
+    outline: 1px solid goldenrod;
+    
+}
+
 footer {
     font-size: small;
     background-color: #364552;
