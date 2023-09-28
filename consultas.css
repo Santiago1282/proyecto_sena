@@ -1,0 +1,116 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+/*Propiedades de body*/
+body {
+    margin: 0;
+    background-color: #efefef; 
+}
+/* Propiedades del encabezado*/
+header{
+    font-family: Rockwell Std Extra Bold;
+    background-color: #364552;
+    color:white;
+    padding: 1rem 1rem;
+}
+
+ /*Titulo de la pagina dentro del body*/
+header h1 {
+    margin: o auto;
+    font-size: 2.5rem;
+    text-align: center;
+}
+/*Propiedades de redes*/
+#redes {
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: content-box;
+}
+/*Propiedades de pago*/
+#pago {
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: content-box;
+}
+/*Propiedades de todas las etiquetas a(redes, pagos)*/
+header div a {
+    size: 20px;
+    text-decoration: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    background: white;
+    color: #314652;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease-in-out;
+  
+}
+header div a:hover {
+    transform: scale(1.5);
+}
+
+.boton {
+    font-size: 20px;
+    border: 2px gold inset;
+    margin: 1px;
+    outline: outset goldenrod;
+    transition: all 0.4s ease-in-out;
+}
+.boton:hover {
+    transform: scale(1.2);
+}
+
+.fondo {
+    background-color: rgb(231, 238, 238);
+    height: 425px;
+    margin: 10px; 
+    padding: 30px; 
+    border: inset 2px gold;
+    border-radius: 5px;
+    outline: 1px solid goldenrod;
+}
+
+#logo {
+    float: right;
+    border: 5px gold outset;
+    margin: 15px;
+    outline: solid goldenrod; 
+}
+
+footer {
+    font-size: small;
+    background-color: #364552;
+    padding: 4rem;
+    color: white;
+}
+
+#datos {
+    margin: 0 auto;
+    float: right;
+}
+
+footer p {
+    margin: 0 auto;
+    float: right;
+}
+
+footer div {
+    float: left;
+    margin: 0 auto;
+    
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
